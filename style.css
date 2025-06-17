@@ -3,7 +3,7 @@
 like body color and margin */
  
 body {
-    background: linear-gradient(orange, red, blue);
+    background: linear-gradient(orange, rgb(222, 13, 13), rgb(79, 79, 231));
     margin: 5%;
 }
 
