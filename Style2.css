@@ -1,0 +1,147 @@
+
+/* Styling the body element
+like body color and margin */
+ 
+body {
+    background: linear-gradient(orange, red, blue);
+    margin: 5%;
+}
+
+/* Styling the Title and giving
+shadow to the title */
+#title {
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(99, 212, 167);
+    font-size: 7vh;
+}
+#image{
+  display: block;
+  margin: 10px 10px 10px 55px;
+  width: 80%;
+}
+.flex-container {
+  display: flex;
+  justify-content:center;
+  background-color: rgb(255, 255, 255);
+}
+.flex-container-main {
+  display: flex;
+  justify-content:center;
+  background-color: rgb(255, 255, 255);
+}
+
+.flex-container-main > div {
+ 
+  margin: 10px;
+  padding: 20px;
+}
+.flex-container > div{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  column-gap: 10px;
+  font-size: 30px;
+}
+@media (max-width: 1400px) {
+  .flex-container-main {
+    flex-direction: column;
+  }
+  #tribute-data ul li{
+    font-size: 2.5vw;
+  }
+}
+/* Setting width and display
+type of image */
+img {
+    display: block;
+    margin: 10%;
+    width: 6vw;
+}
+img:hover{
+  width: 6.4vw;
+}
+#youtube_icon{
+  height: 5.8vw;
+  width: 8.4vw
+}
+#youtube_icon:hover{
+  width: 9vw;
+  height: 6vw;
+}
+#Mar {
+  background-color:rgb(207, 244, 22);
+  font-size: 65px;
+}
+/* Setting font color and font
+size of the image-caption */
+#caption {
+    font-size: 17px;
+    font-family: Gill Sans;
+    color: black;
+}
+
+/* Styling the content of the page like-
+padding, font-size, font color etc.*/
+div#tribute-data {
+    background-color: rgb(46, 139, 87, 0.25);
+    box-shadow: 20px 20px 20px #98FB98;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 40px;
+}
+#tribute-data ul li{
+  font-size: 1.8vw;
+}
+/* Styling the title of the content */
+h1.title-APJ {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(141, 11, 32);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(23, 191, 143);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .navbar{
+    width: 15vw;
+    height: 100vh;
+    background-color: rgb(177, 187, 218);
+}
+.navbar-nav{
+    padding: 15px;
+}
+.navbar nav li{
+    padding: 32px;
+    font-size: 30px;
+    list-style: none;
+}
+.main{
+    width: 85vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    /* padding: 10vw; */
+}
+.container{
+    display: flex;
+}
