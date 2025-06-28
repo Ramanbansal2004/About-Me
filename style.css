@@ -5,6 +5,7 @@ like body color and margin */
 body {
     background: linear-gradient(orange, rgb(222, 13, 13), rgb(79, 79, 231));
     margin: 5%;
+    font-family: sans-serif;
 }
 
 /* Styling the Title and giving
@@ -70,7 +71,7 @@ img:hover{
 }
 #Mar {
   background-color:rgb(207, 244, 22);
-  font-size: 65px;
+  font-size: 3.5vw;
 }
 /* Setting font color and font
 size of the image-caption */
