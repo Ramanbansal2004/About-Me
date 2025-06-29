@@ -59,15 +59,11 @@ img {
     width: 6vw;
 }
 img:hover{
-  width: 6.4vw;
+  opacity: 80%;
 }
-#youtube_icon{
-  height: 5.8vw;
-  width: 8.4vw
-}
-#youtube_icon:hover{
-  width: 9vw;
+#git_icon{
   height: 6vw;
+  margin-left: 2vw;
 }
 #Mar {
   background-color:rgb(207, 244, 22);
@@ -107,22 +103,13 @@ h1.title-APJ {
     text-decoration: none;
   }
   
-  a:visited {
-    color: rgb(141, 11, 32);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
   a:hover {
     color: rgb(0, 90, 0);
     background-color: transparent;
     text-decoration: underline;
   }
-  
-  a:active {
-    color: rgb(23, 191, 143);
-    background-color: transparent;
-    text-decoration: underline;
+  a:visited{
+    color: green;
   }
   .navbar{
     width: 15vw;
